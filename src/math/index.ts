@@ -1,4 +1,5 @@
 export * from './add'
 export * from './dec'
 export * from './divide'
+export * from './inc'
 export * from './subtract'
