@@ -21,6 +21,7 @@
     "dev": "tsc --watch",
     "lint": "eslint --ignore-path .eslintignore --ext .js,.ts .",
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
-    "test": "jest"
+    "test": "jest",
+    "create:fn": "node \"./scripts/create-function.js\""
   }
 }
